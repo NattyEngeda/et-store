@@ -8,8 +8,7 @@ import {
 } from 'react-router-dom';
 import Root from './routes/Root';
 import PageNotFound from './pages/others/404';
-import Home from './pages/home';
-
+import CommingSoon from './pages/comming-soon';
 
 const NODE_ENV = import.meta.env.VITE_USER_NODE_ENV;
 const router = createBrowserRouter([
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />
+        element: <CommingSoon />
       }
     ]
 
